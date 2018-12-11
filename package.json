@@ -1,10 +1,10 @@
 {
-  "name": "@zcorky/koa-helmet",
+  "name": "@koex/helmet",
   "version": "0.0.1",
-  "description": "simple helmet for koa",
+  "description": "helmet for koa extend",
   "main": "lib/index.js",
   "module": "lib/index.js",
-  "repository": "https://github.com/zcorky/koa-helmet",
+  "repository": "https://github.com/koexjs/helmet",
   "author": "Zero",
   "license": "MIT",
   "scripts": {

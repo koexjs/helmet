@@ -1,25 +1,25 @@
-# koa-helmet
+# helmet
 
-[![NPM version](https://img.shields.io/npm/v/@zcorky/koa-helmet.svg?style=flat)](https://www.npmjs.com/package/@zcorky/koa-helmet)
-[![Coverage Status](https://img.shields.io/coveralls/zcorky/koa-helmet.svg?style=flat)](https://coveralls.io/r/zcorky/koa-helmet)
-[![Dependencies](https://david-dm.org/@zcorky/koa-helmet/status.svg)](https://david-dm.org/@zcorky/koa-helmet)
-[![Build Status](https://travis-ci.com/zcorky/koa-helmet.svg?branch=master)](https://travis-ci.com/zcorky/koa-helmet)
-![license](https://img.shields.io/github/license/zcorky/koa-helmet.svg)
-[![issues](https://img.shields.io/github/issues/zcorky/koa-helmet.svg)](https://github.com/zcorky/koa-helmet/issues)
+[![NPM version](https://img.shields.io/npm/v/@koex/helmet.svg?style=flat)](https://www.npmjs.com/package/@koex/helmet)
+[![Coverage Status](https://img.shields.io/coveralls/koexjs/helmet.svg?style=flat)](https://coveralls.io/r/koexjs/helmet)
+[![Dependencies](https://img.shields.io/david/koexjs/helmet.svg)](https://github.com/koexjs/helmet)
+[![Build Status](https://travis-ci.com/koexjs/helmet.svg?branch=master)](https://travis-ci.com/koexjs/helmet)
+![license](https://img.shields.io/github/license/koexjs/helmet.svg)
+[![issues](https://img.shields.io/github/issues/koexjs/helmet.svg)](https://github.com/koexjs/helmet/issues)
 
-> helmet for Koa, wrapper with helmet.
+> helmet for koa extend, wrapper with helmet.
 
 ### Install
 
 ```
-$ npm install @zcorky/koa-helmet
+$ npm install @koex/helmet
 ```
 
 ### Usage
 
 ```javascript
 // See more in test
-import helmet from '@zcorky/koa-helmet';
+import helmet from '@koex/helmet';
 
 import * as Koa from 'koa';
 const app = new Koa();

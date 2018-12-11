@@ -2,18 +2,6 @@ import { promisify } from 'util';
 import { Context } from 'koa';
 import * as helmet from 'helmet';
 
-// Object.keys(helmet).forEach(helmetMethod => {
-//   createHelmet[helmetMethod] = function () {
-//     const method = helmet[helmetMethod];
-//     const methodPromise = promisify(method.call(null, options));
-
-//     return (ctx: Context, next: () => Promise<void>) => {
-//       ctx.req.secure = ctx.request.secure;
-//       return methodPromise(ctx.req, ctx.res).then(next);
-//     };
-//   }
-// });
-
 /**
  * @summary Set policy around third-party content via headers
  * @param {helmet.IHelmetContentSecurityPolicyConfiguration} options The options
