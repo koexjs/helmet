@@ -1,6 +1,6 @@
 {
   "name": "@koex/helmet",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "helmet for koa extend",
   "main": "lib/index.js",
   "module": "lib/index.js",
@@ -16,7 +16,6 @@
   },
   "devDependencies": {
     "@types/debug": "^0.0.31",
-    "@types/helmet": "^0.0.42",
     "@types/koa": "^2.0.47",
     "@types/mime-types": "^2.1.0",
     "@types/mocha": "^5.2.5",
@@ -70,6 +69,7 @@
     "access": "public"
   },
   "dependencies": {
+    "@types/helmet": "^0.0.42",
     "helmet": "^3.15.0"
   }
 }
