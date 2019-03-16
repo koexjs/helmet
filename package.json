@@ -1,6 +1,6 @@
 {
   "name": "@koex/helmet",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "helmet for koa extend",
   "main": "lib/index.js",
   "module": "lib/index.js",

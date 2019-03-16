@@ -14,7 +14,8 @@ export type Handler = (ctx: Context, next: () => Promise<void>) => Promise<void>
 
 export default (options?: helmet.IHelmetConfiguration) => {
   const helmetPromise = promisify(helmet.call(null, options));
-  return async function helmet(ctx: Context, next: () => Promise<void>) {
+
+  return async function koexHelmet(ctx: Context, next: () => Promise<void>) {
     ctx.req.secure = ctx.request.secure;
     return helmetPromise(ctx.req, ctx.res).then(next);
   };
